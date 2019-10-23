@@ -2,9 +2,9 @@ sudo: required
 
 env:
   global:
-    - IMAGE_NAME=libki/libki-server
-    - IMAGE_NAME_CI=libki/libki-server-ci-artifacts
-    - DOCKER_USERNAME=kylemhall
+    - IMAGE_NAME=binlibro/libki-server
+    - IMAGE_NAME_CI=binlibro/libki-server-ci-artifacts
+    - DOCKER_USERNAME=binlibro
     # DOCKER_PASSWORD=...
 
 jobs:
