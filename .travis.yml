@@ -32,7 +32,7 @@ jobs:
         provider: script
         script: docker push "${IMAGE_NAME_CI}:${version}"
         on:
-          branch: master
+          branch: test-travis
 
 
     - stage: test docker image
@@ -70,7 +70,7 @@ jobs:
         provider: script
         script: docker push "${IMAGE_NAME}" 
         on:
-          branch: master
+          branch: test-travis
 
 notifications:
   slack:
